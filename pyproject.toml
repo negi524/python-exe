@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "python-exe"
+version = "0.1.0"
+description = ""
+authors = ["negi524 <egtnrumpbiizarre.info@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.14"
+pyinstaller = "^6.11.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
